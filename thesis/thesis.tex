@@ -1,0 +1,56 @@
+\documentclass[letterpaper,11pt,openany]{book}
+
+\input{base/definitions}						% Packages and new defintions
+\includexmp{base/CC_Attribution-NonCommercial-ShareAlike_2.5_Mexico}	% Licensing XMP metadata
+\hypersetup{									% PDF display options
+    pdftitle={Optical Nonlinear Spectroscopy of Gold and Silicon Nanoparticles},
+    pdfauthor={Sean M. Anderson},
+    pdfsubject={Nonlinear optical studies of gold and silicon nanoparticles using the XP2SHG/SFG technique.},
+    pdfkeywords={nonlinear} {optics} {shg} {sfg} {nanoparticles} {spectroscopy} {surface} {techniques}}
+    
+%\usepackage{showkeys}							% Shows all \label values for quick troubleshooting
+
+\usepackage[T1]{fontenc}						% T1 font encoding for special characters.
+%\usepackage{lmodern}							% Better Latin Modern font.
+\usepackage[bitstream-charter]{mathdesign}		% Charter BT fonts.
+
+%\usepackage{draftwatermark}					% Add watermark to background
+%\SetWatermarkText{DRAFT}
+%\SetWatermarkScale{2}
+%\SetWatermarkLightness{0.87}
+%\SetWatermarkFontSize{2cm}
+
+%\includeonly{}									% Select individual chapters for quicker drafts
+
+\begin{document}
+\dominitoc
+
+\frontmatter
+%\include{content/front/titlepage_cio}			% Only for print version
+\include{content/front/titlepage_generic}
+\include{content/front/copyright}
+\include{content/front/signature_page}
+\include{content/front/epigraph}
+\include{content/front/abstract}
+\include{content/front/dedication}
+\include{content/front/acknowledgments}
+
+\tableofcontents
+\listoffigures
+%\listoftables
+
+\mainmatter
+\input{base/fancyheaders}
+\include{content/main/introduction}
+\include{content/main/theory}
+\include{content/main/setup}
+\include{content/main/results}
+\include{content/main/conclusions}
+
+%\appendix
+%\include{} 
+
+\backmatter
+\include{content/back/bibliography}
+\include{content/back/vita}
+\end{document}
