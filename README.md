@@ -2,9 +2,8 @@ OPTICAL NONLINEAR SPECTROSCOPY OF GOLD AND SILICON NANOPARTICLES
 ================================================================
 
 A thesis by Sean M. Anderson
------------------------------
 Copyright (C) 2012 Sean M Anderson
-----------------------------------
+
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Mexico License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/mx/.
 
