@@ -1,4 +1,4 @@
-OPTICAL NONLINEAR SPECTROSCOPY OF GOLD AND SILICON NANOPARTICLES
+Optical Nonlinear Spectroscopy Of Gold And Silicon Nanoparticles
 ================================================================
 
 A thesis by Sean M. Anderson
